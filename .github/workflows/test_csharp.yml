@@ -2,7 +2,7 @@ name: Build and test of C# Bindings
 
 on:
   schedule:
-    - cron: '3 5 * * *'
+    # - cron: '3 5 * * *'
   workflow_dispatch:
 
 jobs:
