@@ -2,7 +2,7 @@ name: Pip build/install and test of Python Bindings
 
 on:
   schedule:
-    - cron: '13 5 * * *'
+    # - cron: '13 5 * * *'
   workflow_dispatch:
 
 jobs:
